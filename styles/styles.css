@@ -1,0 +1,194 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #0D0D2B;
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+body p {
+  color: white;
+}
+
+.navbar {
+  height: 10vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 65px 0px 0px 140px;
+}
+
+.right-nav-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.right-nav-items p {
+  margin-right: 32px;
+}
+
+.right-nav-items button {
+  background-color: #3671E9;
+  padding: 14px 32px;
+  border-radius: 32px;
+  border: none;
+  color: white;
+  margin-right: 118px;
+}
+
+.landing-page {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  height: 90vh;
+}
+
+.landing-page .offer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 32px;
+  margin-bottom: 28px;
+  height: 40px;
+}
+
+.landing-page .offer button {
+  margin-right: 18px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #0D0D2B;
+  padding: 4px 16px;
+  background: white;
+  border-radius: 32px;
+  border: none;
+}
+
+.landing-page .offer button p {
+  font-size: 16px;
+}
+
+.landing-page .landing-info-section {
+  width: 900px;
+  margin-top: 130px;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.landing-page .landing-info-section .site-info-heading {
+  font-family: 'Rubik';
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 76px;
+  font-style: normal;
+}
+
+.landing-page .landing-page-image {
+  background-image: url("/images/Illustration.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 80%;
+  width: 604px;
+  margin-top: 50px;
+}
+
+.landing-page .stats-info {
+  margin-top: 24px;
+}
+
+.landing-page .try-for-free-button {
+  width: 202px;
+  height: 64px;
+  margin-top: 32px;
+  padding: 16px 16px 16px 24px;
+  background: #3671E9;
+  border-radius: 32px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+  color: white;
+  border: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.stats-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.stats-section .stat-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.stats-section .stat-info div {
+  padding-left: 24px;
+}
+
+.stats-section .stat-info div h1 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 150%;
+  color: #FFFFFF !important;
+}
+/*# sourceMappingURL=styles.css.map */
