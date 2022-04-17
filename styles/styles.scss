@@ -139,6 +139,7 @@ body{
 
 // Stats section
 .stats-section{
+    position: relative;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -159,17 +160,26 @@ body{
             }
         }
     }
+    .stats-why-us-svg{
+        position: absolute;
+        top:100px;
+        right: -180px;
+    }
 }
-
 // why us section
-// .why-us-section{
-//     margin-top: 50px;
-// }
+.why-us-section{
+    position: relative;
+    .why-us-svg{
+        top: 50vh;
+        position: absolute;
+        right: -180px;
+    }
+}
 .why-us{
     display: flex;
     justify-content: start;
     align-items: center;
-    height: 80vh;
+    height: 70vh;
     width: 100%;
     margin: 0 auto;
     .image-section{

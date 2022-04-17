@@ -168,6 +168,7 @@ body p {
 }
 
 .stats-section {
+  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -204,6 +205,22 @@ body p {
   color: #FFFFFF !important;
 }
 
+.stats-section .stats-why-us-svg {
+  position: absolute;
+  top: 100px;
+  right: -180px;
+}
+
+.why-us-section {
+  position: relative;
+}
+
+.why-us-section .why-us-svg {
+  top: 50vh;
+  position: absolute;
+  right: -180px;
+}
+
 .why-us {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -214,7 +231,7 @@ body p {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 80vh;
+  height: 70vh;
   width: 100%;
   margin: 0 auto;
 }
